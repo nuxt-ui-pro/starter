@@ -1,6 +1,6 @@
 <template>
   <UMain>
-    <ULandingHero title="Nuxt UI Pro" description="Welcome to the minimal starter of Nuxt UI Pro, Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.">
+    <ULandingHero title="Nuxt UI Pro Starter" description="Welcome to the minimal starter of Nuxt UI Pro, Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.">
       <template #links>
         <UButton to="#features" size="xl" icon="i-heroicons-rocket-launch">
           Get Started
