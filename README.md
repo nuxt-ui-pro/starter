@@ -4,6 +4,10 @@ This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) qu
 
 [![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
 
+- [Live demo](https://nuxt-ui-pro-starter.vercel.app/)
+- [Play on Stackblitz](https://stackblitz.com/edit/github-mpfome?file=README.md)
+- [Documentation](https://ui.nuxt.com/pro/guide)
+
 ## Setup
 
 Make sure to install the dependencies:
