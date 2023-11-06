@@ -1,4 +1,6 @@
-# Nuxt UI Pro Minimal Starter
+![nuxt-ui-pro-starter-screenshot](https://github.com/nuxt-ui-pro/starter/assets/904724/be931063-9ab4-4a05-88cc-caada554dde2)
+
+# Nuxt UI Pro Starter
 
 This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) quickly.
 
