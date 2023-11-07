@@ -1,5 +1,5 @@
 <template>
-  <UMain>
+  <div>
     <ULandingHero title="Nuxt UI Pro Starter" description="Welcome to the minimal starter of Nuxt UI Pro, Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.">
       <template #links>
         <UButton to="#features" size="xl" icon="i-heroicons-rocket-launch">
@@ -10,6 +10,7 @@
         </UButton>
       </template>
     </ULandingHero>
+
     <ULandingSection id="features" title="Features" description="An advanced set of features to let you build anything.">
       <UPageGrid>
         <ULandingCard title="First Card" description="This is my first description" color="primary" />
@@ -17,5 +18,5 @@
         <ULandingCard title="Third Card" description="This is my third description" color="amber" />
       </UPageGrid>
     </ULandingSection>
-  </UMain>
+  </div>
 </template>

@@ -19,7 +19,11 @@ const links = [{
       <UColorModeButton />
     </template>
   </UHeader>
-  <NuxtPage />
+
+  <UMain>
+    <NuxtPage />
+  </UMain>
+
   <UFooter>
     <template #left>
       This is my footer
