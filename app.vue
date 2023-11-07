@@ -15,8 +15,11 @@ const links = [{
     <template #logo>
       Nuxt UI Pro
     </template>
+
     <template #right>
       <UColorModeButton />
+
+      <UButton to="https://github.com/nuxt-ui-pro/starter" target="_blank" icon="i-simple-icons-github" aria-label="GitHub" color="gray" variant="ghost" />
     </template>
   </UHeader>
 
@@ -26,7 +29,7 @@ const links = [{
 
   <UFooter>
     <template #left>
-      This is my footer
+      Copyright © {{ new Date().getFullYear() }}
     </template>
   </UFooter>
 </template>
