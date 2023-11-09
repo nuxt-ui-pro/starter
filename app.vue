@@ -8,6 +8,19 @@ const links = [{
   to: 'https://ui.nuxt.com/pro/guide',
   target: '_blank'
 }]
+
+useHead({
+  title: 'Nuxt UI Pro Starter',
+  meta: [
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+  ],
+  link: [
+    { rel: 'icon', href: '/favicon.ico' }
+  ],
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
 </script>
 
 <template>

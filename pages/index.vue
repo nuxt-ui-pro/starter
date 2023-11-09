@@ -14,9 +14,9 @@
 
     <ULandingSection id="features" title="Features" description="An advanced set of features to let you build anything.">
       <UPageGrid>
-        <ULandingCard title="First Card" description="This is my first description" color="primary" />
-        <ULandingCard title="Second Card" description="This is my second description" color="fuchsia" />
-        <ULandingCard title="Third Card" description="This is my third description" color="amber" />
+        <ULandingCard title="First Card" description="This is my first description" />
+        <ULandingCard title="Second Card" description="This is my second description" />
+        <ULandingCard title="Third Card" description="This is my third description" />
       </UPageGrid>
     </ULandingSection>
   </div>
