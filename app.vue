@@ -21,12 +21,16 @@ useHead({
     lang: 'en'
   }
 })
+
+useSeoMeta({
+  description: 'Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+})
 </script>
 
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro
+      Nuxt UI Pro <UBadge label="Starter" variant="subtle" class="mb-0.5" />
     </template>
 
     <template #right>
