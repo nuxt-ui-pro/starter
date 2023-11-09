@@ -30,7 +30,7 @@
           <UButton to="https://ui.nuxt.com/pro/purchase" size="lg" color="black" icon="i-heroicons-credit-card">
             Buy now
           </UButton>
-          <UButton to="https://ui.nuxt.com/pro/guide#license" size="lg" color="gray" trailing-icon="i-heroicons-arrow-right-20-solid">
+          <UButton to="https://ui.nuxt.com/pro/guide#license" size="lg" color="gray" trailing-icon="i-heroicons-arrow-right-20-solid" aria-label="License documentation">
             Learn more
           </UButton>
         </template>
