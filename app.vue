@@ -5,7 +5,7 @@ const links = [{
   exactHash: true
 }, {
   label: 'Documentation',
-  to: 'https://ui.nuxt.com/pro/guide',
+  to: 'https://ui.nuxt.com/pro',
   target: '_blank'
 }]
 

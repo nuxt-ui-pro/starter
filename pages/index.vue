@@ -2,12 +2,12 @@
   <div>
     <ULandingHero title="Nuxt UI Pro Starter" description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.">
       <template #links>
-        <UButton to="#features" size="lg" icon="i-heroicons-rocket-launch">
-          Get Started
+        <UButton to="https://ui.nuxt.com/pro/guide" target="_blank" size="lg" icon="i-heroicons-book-open">
+          Guide
         </UButton>
 
-        <UButton to="https://ui.nuxt.com/pro/guide" size="lg" color="gray" icon="i-heroicons-book-open">
-          Documentation
+        <UButton to="https://ui.nuxt.com/pro/components" target="_blank" size="lg" color="gray" icon="i-heroicons-cube-transparent">
+          Components
         </UButton>
       </template>
     </ULandingHero>
@@ -27,11 +27,11 @@
     <ULandingSection>
       <ULandingCTA title="Ready to get started?" description="Nuxt UI Pro is free in development, but you need a license to use it in production.">
         <template #links>
-          <UButton to="https://ui.nuxt.com/pro/purchase" size="lg" color="black" icon="i-heroicons-credit-card">
+          <UButton to="https://ui.nuxt.com/pro/purchase" target="_blank" size="lg" color="black" icon="i-heroicons-credit-card">
             Buy now
           </UButton>
-          <UButton to="https://ui.nuxt.com/pro/guide#license" size="lg" color="gray" trailing-icon="i-heroicons-arrow-right-20-solid" aria-label="License documentation">
-            Learn more
+          <UButton to="https://ui.nuxt.com/pro/guide#license" target="_blank" size="lg" color="gray" trailing-icon="i-heroicons-arrow-right-20-solid">
+            License
           </UButton>
         </template>
       </ULandingCTA>
