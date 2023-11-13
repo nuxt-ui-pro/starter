@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ULandingHero title="Nuxt UI Pro Starter" description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.">
+    <ULandingHero title="Nuxt UI Pro - Starter" description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.">
       <template #links>
         <UButton to="https://ui.nuxt.com/pro/guide" target="_blank" size="lg" icon="i-heroicons-book-open">
           Guide

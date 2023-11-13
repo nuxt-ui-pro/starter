@@ -10,7 +10,7 @@ const links = [{
 }]
 
 useHead({
-  title: 'Nuxt UI Pro Starter',
+  title: 'Nuxt UI Pro - Starter',
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
