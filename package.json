@@ -12,13 +12,13 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/heroicons": "^1.1.13",
-    "@iconify-json/simple-icons": "^1.1.79",
+    "@iconify-json/heroicons": "^1.1.14",
+    "@iconify-json/simple-icons": "^1.1.80",
     "@nuxt/ui-pro": "^0.5.0",
     "nuxt": "^3.8.2"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.3",
+    "@nuxt/devtools": "^1.0.4",
     "@nuxt/eslint-config": "^0.2.0",
     "eslint": "^8.54.0",
     "typescript": "^5.3.2",
