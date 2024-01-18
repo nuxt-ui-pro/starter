@@ -13,15 +13,13 @@
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.19",
-    "@iconify-json/simple-icons": "^1.1.87",
-    "@nuxt/ui-pro": "^0.7.0",
-    "nuxt": "^3.9.1"
+    "@iconify-json/simple-icons": "^1.1.88",
+    "@nuxt/ui-pro": "^0.7.1",
+    "nuxt": "^3.9.3"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.8",
     "@nuxt/eslint-config": "^0.2.0",
     "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
     "vue-tsc": "^1.8.27"
   },
   "resolutions": {

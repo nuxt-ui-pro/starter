@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ui: {
     icons: ['heroicons', 'simple-icons']
   },
-  // Devtools / Typescript
-  devtools: { enabled: true },
-  typescript: { strict: false }
+  devtools: {
+    enabled: true
+  }
 })
