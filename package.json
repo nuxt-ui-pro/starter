@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.19",
-    "@iconify-json/simple-icons": "^1.1.89",
-    "@nuxt/ui-pro": "^0.7.3",
+    "@iconify-json/simple-icons": "^1.1.90",
+    "@nuxt/ui-pro": "^0.7.4",
     "nuxt": "^3.9.3"
   },
   "devDependencies": {
@@ -23,6 +23,9 @@
     "vue-tsc": "^1.8.27"
   },
   "resolutions": {
+    "vue": "3.3.13"
+  },
+  "overrides": {
     "vue": "3.3.13"
   }
 }
