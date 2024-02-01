@@ -14,8 +14,8 @@
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.19",
     "@iconify-json/simple-icons": "^1.1.90",
-    "@nuxt/ui-pro": "^0.7.4",
-    "nuxt": "^3.9.3"
+    "@nuxt/ui-pro": "^0.7.5",
+    "nuxt": "^3.10.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
