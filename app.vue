@@ -23,7 +23,10 @@ useHead({
 })
 
 useSeoMeta({
-  description: 'Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+  description: 'Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.',
+  ogImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
+  twitterImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
+  twitterCard: 'summary_large_image'
 })
 </script>
 
