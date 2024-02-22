@@ -21,9 +21,14 @@ useHead({
   }
 })
 
+const title = 'Nuxt UI Pro - Starter'
+const description = 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+
 useSeoMeta({
-  title: 'Nuxt UI Pro - Starter',
-  description: 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.',
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
   ogImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
   twitterImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
   twitterCard: 'summary_large_image'
