@@ -8,7 +8,7 @@ This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) qu
 
 - [Live demo](https://ui-pro-starter.nuxt.dev)
 - [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/starter)
-- [Documentation](https://ui.nuxt.com/pro/guide)
+- [Documentation](https://ui.nuxt.com/pro/getting-started)
 
 ## Setup
 
