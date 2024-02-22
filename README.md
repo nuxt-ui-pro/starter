@@ -1,4 +1,4 @@
-![nuxt-ui-pro-starter-screenshot](https://github.com/nuxt-ui-pro/starter/assets/904724/be931063-9ab4-4a05-88cc-caada554dde2)
+![nuxt-ui-minimal-starter-social-card](https://github.com/nuxt-ui-pro/starter/assets/739984/2ab2f391-718f-4188-95db-20b8768bbf9d)
 
 # Nuxt UI Pro - Starter
 
