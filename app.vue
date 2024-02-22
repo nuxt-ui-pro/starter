@@ -10,7 +10,6 @@ const links = [{
 }]
 
 useHead({
-  title: 'Nuxt UI Pro - Starter',
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
@@ -23,7 +22,8 @@ useHead({
 })
 
 useSeoMeta({
-  description: 'Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.',
+  title: 'Nuxt UI Pro - Starter',
+  description: 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.',
   ogImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
   twitterImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
   twitterCard: 'summary_large_image'
