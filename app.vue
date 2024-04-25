@@ -38,13 +38,24 @@ useSeoMeta({
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge label="Starter" variant="subtle" class="mb-0.5" />
+      Nuxt UI Pro <UBadge
+        label="Starter"
+        variant="subtle"
+        class="mb-0.5"
+      />
     </template>
 
     <template #right>
       <UColorModeButton />
 
-      <UButton to="https://github.com/nuxt-ui-pro/starter" target="_blank" icon="i-simple-icons-github" aria-label="GitHub" color="gray" variant="ghost" />
+      <UButton
+        to="https://github.com/nuxt-ui-pro/starter"
+        target="_blank"
+        icon="i-simple-icons-github"
+        aria-label="GitHub"
+        color="gray"
+        variant="ghost"
+      />
     </template>
   </UHeader>
 
