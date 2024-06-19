@@ -8,9 +8,6 @@ export default defineNuxtConfig({
   ui: {
     icons: ['heroicons', 'simple-icons']
   },
-  routeRules: {
-    '/': { prerender: true }
-  },
   devtools: {
     enabled: true
   },
