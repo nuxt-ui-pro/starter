@@ -10,6 +10,8 @@ This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) qu
 - [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/starter)
 - [Documentation](https://ui.nuxt.com/pro/getting-started)
 
+[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/starter)
+
 ## Setup
 
 Make sure to install the dependencies:
