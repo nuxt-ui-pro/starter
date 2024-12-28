@@ -7,18 +7,20 @@ export default defineNuxtConfig({
     '@nuxt/ui'
   ],
 
+  devtools: {
+    enabled: true
+  },
+
   routeRules: {
     // Temporary workaround for prerender regression. see https://github.com/nuxt/nuxt/issues/27490
     '/': { prerender: true }
   },
 
-  devtools: {
-    enabled: true
-  },
-
   future: {
     compatibilityVersion: 4
   },
+
+  compatibilityDate: '2024-07-11',
 
   eslint: {
     config: {
@@ -27,7 +29,5 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-
-  compatibilityDate: '2024-07-11'
+  }
 })
