@@ -72,7 +72,7 @@
             to="https://ui.nuxt.com/pro/guide#license"
             target="_blank"
             size="lg"
-            color="gray"
+            color="neutral"
             trailing-icon="i-heroicons-arrow-right-20-solid"
           >
             License
