@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ULandingHero
+    <UPageHero
       title="Nuxt UI Pro - Starter"
       description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes."
     >
@@ -18,15 +18,16 @@
           to="https://ui.nuxt.com/pro/components"
           target="_blank"
           size="lg"
-          color="gray"
+          color="neutral"
+          variant="subtle"
           icon="i-heroicons-cube-transparent"
         >
           Components
         </UButton>
       </template>
-    </ULandingHero>
+    </UPageHero>
 
-    <ULandingSection
+    <UPageSection
       id="features"
       title="The freedom to build anything"
     >
@@ -51,9 +52,9 @@
           description="Nuxt UI Pro components aims to structure your content, they are responsive by design and will adapt to any screen size."
         />
       </UPageGrid>
-    </ULandingSection>
+    </UPageSection>
 
-    <ULandingSection>
+    <UPageSection>
       <ULandingCTA
         title="Ready to get started?"
         description="Nuxt UI Pro is free in development, but you need a license to use it in production."
@@ -63,7 +64,7 @@
             to="https://ui.nuxt.com/pro/purchase"
             target="_blank"
             size="lg"
-            color="black"
+            color="neutral"
             icon="i-heroicons-credit-card"
           >
             Buy now
@@ -79,6 +80,6 @@
           </UButton>
         </template>
       </ULandingCTA>
-    </ULandingSection>
+    </UPageSection>
   </div>
 </template>

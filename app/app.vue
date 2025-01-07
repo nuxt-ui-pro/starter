@@ -1,5 +1,5 @@
 <script setup>
-const links = [{
+const items = [{
   label: 'Features',
   to: '#features',
   exactHash: true
@@ -37,14 +37,16 @@ useSeoMeta({
 
 <template>
   <UApp>
-    <UHeader :links="links">
-      <template #logo>
+    <UHeader>
+      <template #title>
         Nuxt UI Pro <UBadge
           label="Starter"
           variant="subtle"
           class="mb-0.5"
         />
       </template>
+
+      <UNavigationMenu :items="items" />
 
       <template #right>
         <UColorModeButton />
