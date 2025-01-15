@@ -6,7 +6,7 @@
     >
       <template #links>
         <UButton
-          to="https://ui.nuxt.com/pro/guide"
+          to="https://ui3.nuxt.dev/getting-started/installation/pro/nuxt"
           target="_blank"
           size="lg"
           icon="i-heroicons-book-open"
@@ -15,7 +15,7 @@
         </UButton>
 
         <UButton
-          to="https://ui.nuxt.com/pro/components"
+          to="https://ui3.nuxt.dev/components"
           target="_blank"
           size="lg"
           color="neutral"
@@ -55,7 +55,7 @@
     </UPageSection>
 
     <UPageSection>
-      <ULandingCTA
+      <UPageCTA
         title="Ready to get started?"
         description="Nuxt UI Pro is free in development, but you need a license to use it in production."
       >
@@ -70,7 +70,7 @@
             Buy now
           </UButton>
           <UButton
-            to="https://ui.nuxt.com/pro/guide#license"
+            to="https://ui3.nuxt.dev/getting-started/license"
             target="_blank"
             size="lg"
             color="neutral"
@@ -79,7 +79,7 @@
             License
           </UButton>
         </template>
-      </ULandingCTA>
+      </UPageCTA>
     </UPageSection>
   </div>
 </template>

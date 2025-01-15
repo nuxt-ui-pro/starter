@@ -1,13 +1,15 @@
 <script setup>
-const items = [{
+const route = useRoute()
+
+const items = computed(() => [{
   label: 'Features',
   to: '#features',
-  exactHash: true
+  active: route.hash === '#features'
 }, {
   label: 'Documentation',
   to: 'https://ui.nuxt.com/pro',
   target: '_blank'
-}]
+}])
 
 useHead({
   meta: [
@@ -39,10 +41,10 @@ useSeoMeta({
   <UApp>
     <UHeader>
       <template #title>
-        Nuxt UI Pro <UBadge
+        Nuxt UI Pro
+        <UBadge
           label="Starter"
           variant="subtle"
-          class="mb-0.5"
         />
       </template>
 
@@ -52,7 +54,7 @@ useSeoMeta({
         <UColorModeButton />
 
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter"
+          to="https://github.com/nuxt-ui-pro/starter/tree/v3"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
