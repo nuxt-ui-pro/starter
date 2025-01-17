@@ -1,13 +1,15 @@
 <script setup>
-const links = [{
+const route = useRoute()
+
+const items = computed(() => [{
   label: 'Features',
   to: '#features',
-  exactHash: true
+  active: route.hash === '#features'
 }, {
   label: 'Documentation',
-  to: 'https://ui.nuxt.com/pro',
+  to: 'https://ui3.nuxt.dev',
   target: '_blank'
-}]
+}])
 
 useHead({
   meta: [
@@ -36,36 +38,55 @@ useSeoMeta({
 </script>
 
 <template>
-  <UHeader :links="links">
-    <template #logo>
-      Nuxt UI Pro <UBadge
-        label="Starter"
-        variant="subtle"
-        class="mb-0.5"
-      />
-    </template>
+  <UApp>
+    <UHeader>
+      <template #title>
+        Nuxt UI Pro
+        <UBadge
+          label="Starter"
+          variant="subtle"
+        />
+      </template>
 
-    <template #right>
-      <UColorModeButton />
+      <UNavigationMenu :items="items" />
 
-      <UButton
-        to="https://github.com/nuxt-ui-pro/starter"
-        target="_blank"
-        icon="i-simple-icons-github"
-        aria-label="GitHub"
-        color="gray"
-        variant="ghost"
-      />
-    </template>
-  </UHeader>
+      <template #right>
+        <UColorModeButton />
 
-  <UMain>
-    <NuxtPage />
-  </UMain>
+        <UButton
+          to="https://github.com/nuxt-ui-pro/starter/tree/v3"
+          target="_blank"
+          icon="i-simple-icons-github"
+          aria-label="GitHub"
+          color="gray"
+          variant="ghost"
+        />
+      </template>
+    </UHeader>
 
-  <UFooter>
-    <template #left>
-      Copyright © {{ new Date().getFullYear() }}
-    </template>
-  </UFooter>
+    <UMain>
+      <NuxtPage />
+    </UMain>
+
+    <USeparator icon="i-simple-icons-nuxtdotjs" />
+
+    <UFooter>
+      <template #left>
+        <p class="text-(--ui-text-muted)">
+          Copyright © {{ new Date().getFullYear() }}
+        </p>
+      </template>
+
+      <template #right>
+        <UButton
+          to="https://github.com/nuxt-ui-pro/starter/tree/v3"
+          target="_blank"
+          icon="i-simple-icons-github"
+          aria-label="GitHub"
+          color="gray"
+          variant="ghost"
+        />
+      </template>
+    </UFooter>
+  </UApp>
 </template>
