@@ -7,7 +7,7 @@ const items = computed(() => [{
   active: route.hash === '#features'
 }, {
   label: 'Documentation',
-  to: 'https://ui.nuxt.com/pro',
+  to: 'https://ui3.nuxt.dev',
   target: '_blank'
 }])
 
@@ -68,9 +68,24 @@ useSeoMeta({
       <NuxtPage />
     </UMain>
 
+    <USeparator icon="i-simple-icons-nuxtdotjs" />
+
     <UFooter>
       <template #left>
-        Copyright © {{ new Date().getFullYear() }}
+        <p class="text-(--ui-text-muted)">
+          Copyright © {{ new Date().getFullYear() }}
+        </p>
+      </template>
+
+      <template #right>
+        <UButton
+          to="https://github.com/nuxt-ui-pro/starter/tree/v3"
+          target="_blank"
+          icon="i-simple-icons-github"
+          aria-label="GitHub"
+          color="gray"
+          variant="ghost"
+        />
       </template>
     </UFooter>
   </UApp>

@@ -3,83 +3,63 @@
     <UPageHero
       title="Nuxt UI Pro - Starter"
       description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes."
-    >
-      <template #links>
-        <UButton
-          to="https://ui3.nuxt.dev/getting-started/installation/pro/nuxt"
-          target="_blank"
-          size="lg"
-          icon="i-heroicons-book-open"
-        >
-          Guide
-        </UButton>
-
-        <UButton
-          to="https://ui3.nuxt.dev/components"
-          target="_blank"
-          size="lg"
-          color="neutral"
-          variant="subtle"
-          icon="i-heroicons-cube-transparent"
-        >
-          Components
-        </UButton>
-      </template>
-    </UPageHero>
+      :links="[{
+        label: 'Installation',
+        to: 'https://ui3.nuxt.dev/getting-started/installation/pro/nuxt#use-an-official-template',
+        target: '_blank',
+        icon: 'i-lucide-square-play',
+        size: 'lg'
+      }, {
+        label: 'Components',
+        to: 'https://ui3.nuxt.dev/components',
+        target: '_blank',
+        icon: 'i-lucide-box',
+        size: 'lg',
+        color: 'neutral'
+      }]"
+    />
 
     <UPageSection
       id="features"
       title="The freedom to build anything"
-    >
-      <template #description>
-        Nuxt UI Pro ships with an extensive set of advanced components that cover a wide range of use-cases.<br> Carefully crafted to reduce boilerplate code without sacrificing flexibility.
-      </template>
-
-      <UPageGrid>
-        <UPageCard
-          icon="i-heroicons-wrench-screwdriver"
-          title="Fully customizable"
-          description="Like Nuxt UI, change the style of any component from your App Config or customize them specifically through the ui prop."
-        />
-        <UPageCard
-          icon="i-heroicons-square-3-stack-3d"
-          title="Slots for everything"
-          description="Each component leverages the power of Vue's slots to give you the flexibility to build anything."
-        />
-        <UPageCard
-          icon="i-heroicons-device-phone-mobile"
-          title="Responsive by design"
-          description="Nuxt UI Pro components aims to structure your content, they are responsive by design and will adapt to any screen size."
-        />
-      </UPageGrid>
-    </UPageSection>
+      description="Nuxt UI Pro ships with an extensive set of advanced components that cover a wide range of use-cases. Carefully crafted to reduce boilerplate code without sacrificing flexibility."
+      :features="[{
+        icon: 'i-lucide-wrench',
+        title: 'Fully customizable',
+        description: 'Customize any component through the App Config or fine-tune specific instances with the ui prop, just like Nuxt UI.'
+      }, {
+        icon: 'i-lucide-square-stack',
+        title: 'Powerful slot system',
+        description: 'Take full control of component layouts and content with Vue\'s comprehensive slot system for maximum flexibility.'
+      }, {
+        icon: 'i-lucide-smartphone',
+        title: 'Mobile-first & responsive',
+        description: 'Built with a mobile-first approach, all components automatically adapt to any screen size while maintaining a polished look.'
+      }]"
+    />
 
     <UPageSection>
       <UPageCTA
         title="Ready to get started?"
         description="Nuxt UI Pro is free in development, but you need a license to use it in production."
-      >
-        <template #links>
-          <UButton
-            to="https://ui.nuxt.com/pro/purchase"
-            target="_blank"
-            size="lg"
-            color="neutral"
-            icon="i-heroicons-credit-card"
-          >
-            Buy now
-          </UButton>
-          <UButton
-            to="https://ui3.nuxt.dev/getting-started/license"
-            target="_blank"
-            size="lg"
-            color="neutral"
-            trailing-icon="i-heroicons-arrow-right-20-solid"
-          >
-            License
-          </UButton>
-        </template>
-      </UPageCTA>
+        variant="subtle"
+        :links="[{
+          label: 'Buy now',
+          to: 'https://ui.nuxt.com/pro/purchase',
+          target: '_blank',
+          icon: 'i-heroicons-credit-card',
+          size: 'lg',
+          color: 'neutral'
+        }, {
+          label: 'License',
+          to: 'https://ui3.nuxt.dev/getting-started/license',
+          target: '_blank',
+          trailingIcon: 'i-lucide-arrow-right',
+          size: 'lg',
+          color: 'neutral',
+          variant: 'outline'
+        }]"
+      />
     </UPageSection>
   </div>
 </template>
