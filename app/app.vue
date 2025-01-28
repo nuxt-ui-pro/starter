@@ -40,12 +40,12 @@ useSeoMeta({
 <template>
   <UApp>
     <UHeader>
-      <template #title>
-        Nuxt UI Pro
-        <UBadge
-          label="Starter"
-          variant="subtle"
-        />
+      <template #left>
+        <NuxtLink to="/">
+          <LogoPro class="w-auto h-6 shrink-0" />
+        </NuxtLink>
+
+        <TemplateMenu />
       </template>
 
       <UNavigationMenu :items="items" />
