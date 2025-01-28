@@ -47,7 +47,7 @@
           label: 'Buy now',
           to: 'https://ui.nuxt.com/pro/purchase',
           target: '_blank',
-          icon: 'i-heroicons-credit-card',
+          icon: 'i-lucide-shopping-cart',
           size: 'lg',
           color: 'neutral'
         }, {
