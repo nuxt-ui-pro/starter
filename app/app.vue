@@ -41,6 +41,7 @@ useSeoMeta({
   <UApp>
     <UHeader>
       <template #left>
+        <LogoPro class="w-auto h-6 shrink-0" />
         <TemplateMenu />
       </template>
 
