@@ -5,6 +5,7 @@
     :items="[{
       label: `Starter`,
       to: 'https://starter-template.nuxt.dev/',
+      color: 'primary',
       checked: true,
       type: 'checkbox'
     }, {
