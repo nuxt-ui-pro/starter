@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center gap-2">
-    <Logo class="w-auto h-6 shrink-0" />
+    <LogoPro class="w-auto h-6 shrink-0" />
     <UDropdownMenu
       v-slot="{ open }"
       :modal="false"
