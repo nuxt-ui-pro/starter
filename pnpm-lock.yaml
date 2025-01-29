@@ -53,8 +53,8 @@ packages:
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
 
-  '@apidevtools/json-schema-ref-parser@11.8.2':
-    resolution: {integrity: sha512-EP16uhmZ3HwA3I/hZosn3SUPwcKfAqG7YKs1k2c+pzCF2uVgeSHXRh7m3h7M386K1ijYXU8NyJQxjQS63Q/oGw==}
+  '@apidevtools/json-schema-ref-parser@11.9.0':
+    resolution: {integrity: sha512-8Q/r5mXLa8Rfyh6r4SgEEFJgISVN5cDNFlcfSWLgFn3odzQhTfHAqzI3hMGdcROViL+8NrDNVVFQtEUrYOksDg==}
     engines: {node: '>= 16'}
 
   '@babel/code-frame@7.26.2':
@@ -1483,8 +1483,8 @@ packages:
   caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
 
-  caniuse-lite@1.0.30001695:
-    resolution: {integrity: sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==}
+  caniuse-lite@1.0.30001696:
+    resolution: {integrity: sha512-pDCPkvzfa39ehJtJ+OwGT/2yvT2SbjfHhiIW2LWOAcMQ7BzwxT/XuyUp4OTOd0XFWA6BKw0JalnBHgSi5DGJBQ==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -3260,9 +3260,6 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  queue-tick@1.0.1:
-    resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
-
   radix-vue@1.9.13:
     resolution: {integrity: sha512-wk0G69vRDU5TDmhYHZv5Y4j905CLfnvcsFB+CXAbXRuQIl5fUCmOWSOukKhj0MT9YRsW5ujZUjtDF0Ou/hg+8Q==}
     peerDependencies:
@@ -3528,8 +3525,8 @@ packages:
   std-env@3.8.0:
     resolution: {integrity: sha512-Bc3YwwCB+OzldMxOXJIIvC6cPRWr/LxOp48CdQTOkPyk/t4JWWJbrilwBd7RJzKV8QW7tJkcgAmeuLLJugl5/w==}
 
-  streamx@2.21.1:
-    resolution: {integrity: sha512-PhP9wUnFLa+91CPy3N6tiQsK+gnYyUNuk15S3YG/zjYE7RuPeCjJngqnzpC31ow0lzBHQ+QGO4cNJnd0djYUsw==}
+  streamx@2.22.0:
+    resolution: {integrity: sha512-sLh1evHOzBy/iWRiR6d1zRcLao4gGZr3C1kzNz4fopCOKJb6xD9ub8Mpi9Mr1R6id5o43S+d93fI48UC5uM9aw==}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -4184,7 +4181,7 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@apidevtools/json-schema-ref-parser@11.8.2':
+  '@apidevtools/json-schema-ref-parser@11.9.0':
     dependencies:
       '@jsdevtools/ono': 7.1.3
       '@types/json-schema': 7.0.15
@@ -5997,7 +5994,7 @@ snapshots:
   autoprefixer@10.4.20(postcss@8.5.1):
     dependencies:
       browserslist: 4.24.4
-      caniuse-lite: 1.0.30001695
+      caniuse-lite: 1.0.30001696
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -6044,7 +6041,7 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001695
+      caniuse-lite: 1.0.30001696
       electron-to-chromium: 1.5.88
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
@@ -6093,11 +6090,11 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.24.4
-      caniuse-lite: 1.0.30001695
+      caniuse-lite: 1.0.30001696
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  caniuse-lite@1.0.30001695: {}
+  caniuse-lite@1.0.30001696: {}
 
   chalk@4.1.2:
     dependencies:
@@ -7154,7 +7151,7 @@ snapshots:
 
   json-schema-to-typescript-lite@14.1.0:
     dependencies:
-      '@apidevtools/json-schema-ref-parser': 11.8.2
+      '@apidevtools/json-schema-ref-parser': 11.9.0
       '@types/json-schema': 7.0.15
 
   json-schema-traverse@0.4.1: {}
@@ -8049,8 +8046,6 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  queue-tick@1.0.1: {}
-
   radix-vue@1.9.13(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@floating-ui/dom': 1.6.13
@@ -8355,10 +8350,9 @@ snapshots:
 
   std-env@3.8.0: {}
 
-  streamx@2.21.1:
+  streamx@2.22.0:
     dependencies:
       fast-fifo: 1.3.2
-      queue-tick: 1.0.1
       text-decoder: 1.2.3
     optionalDependencies:
       bare-events: 2.5.4
@@ -8459,7 +8453,7 @@ snapshots:
     dependencies:
       b4a: 1.6.7
       fast-fifo: 1.3.2
-      streamx: 2.21.1
+      streamx: 2.22.0
 
   tar@6.2.1:
     dependencies:
