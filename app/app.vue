@@ -1,16 +1,4 @@
 <script setup>
-const route = useRoute()
-
-const items = computed(() => [{
-  label: 'Features',
-  to: '#features',
-  active: route.hash === '#features'
-}, {
-  label: 'Documentation',
-  to: 'https://ui3.nuxt.dev',
-  target: '_blank'
-}])
-
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -48,13 +36,11 @@ useSeoMeta({
         <TemplateMenu />
       </template>
 
-      <UNavigationMenu :items="items" />
-
       <template #right>
         <UColorModeButton />
 
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter/tree/v3"
+          to="https://github.com/nuxt-ui-pro/starter"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
@@ -79,7 +65,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter/tree/v3"
+          to="https://github.com/nuxt-ui-pro/starter"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"

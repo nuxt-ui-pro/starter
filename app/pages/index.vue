@@ -2,16 +2,16 @@
   <div>
     <UPageHero
       title="Nuxt UI Pro - Starter"
-      description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes."
+      description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes."
       :links="[{
         label: 'Get started',
-        to: 'https://ui3.nuxt.dev/getting-started/installation/pro/nuxt#use-an-official-template',
+        to: 'https://ui3.nuxt.dev/getting-started',
         target: '_blank',
         trailingIcon: 'i-lucide-arrow-right',
         size: 'xl'
       }, {
         label: 'Use this template',
-        to: 'https://github.com/nuxt-ui-pro/starter/tree/v3',
+        to: 'https://github.com/nuxt-ui-pro/starter',
         target: '_blank',
         icon: 'i-simple-icons-github',
         size: 'xl',
@@ -41,7 +41,7 @@
 
     <UPageSection>
       <UPageCTA
-        title="Ready to get started?"
+        title="Start with Nuxt UI Pro today!"
         description="Nuxt UI Pro is free in development, but you need a license to use it in production."
         variant="subtle"
         :links="[{
