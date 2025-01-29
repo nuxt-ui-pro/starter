@@ -58,7 +58,7 @@ useSeoMeta({
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
-          color="gray"
+          color="neutral"
           variant="ghost"
         />
       </template>
@@ -72,7 +72,7 @@ useSeoMeta({
 
     <UFooter>
       <template #left>
-        <p class="text-(--ui-text-muted)">
+        <p class="text-sm text-(--ui-text-muted)">
           Copyright © {{ new Date().getFullYear() }}
         </p>
       </template>
@@ -83,7 +83,7 @@ useSeoMeta({
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
-          color="gray"
+          color="neutral"
           variant="ghost"
         />
       </template>

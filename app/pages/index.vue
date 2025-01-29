@@ -4,18 +4,19 @@
       title="Nuxt UI Pro - Starter"
       description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes."
       :links="[{
-        label: 'Installation',
+        label: 'Get started',
         to: 'https://ui3.nuxt.dev/getting-started/installation/pro/nuxt#use-an-official-template',
         target: '_blank',
-        icon: 'i-lucide-square-play',
-        size: 'lg'
+        trailingIcon: 'i-lucide-arrow-right',
+        size: 'xl'
       }, {
-        label: 'Components',
-        to: 'https://ui3.nuxt.dev/components',
+        label: 'Use this template',
+        to: 'https://github.com/nuxt-ui-pro/starter/tree/v3',
         target: '_blank',
-        icon: 'i-lucide-box',
-        size: 'lg',
-        color: 'neutral'
+        icon: 'i-simple-icons-github',
+        size: 'xl',
+        color: 'neutral',
+        variant: 'subtle'
       }]"
     />
 
@@ -54,10 +55,10 @@
           label: 'License',
           to: 'https://ui3.nuxt.dev/getting-started/license',
           target: '_blank',
-          trailingIcon: 'i-lucide-arrow-right',
+          trailingIcon: 'i-lucide-circle-help',
           size: 'lg',
           color: 'neutral',
-          variant: 'outline'
+          variant: 'subtle'
         }]"
       />
     </UPageSection>
