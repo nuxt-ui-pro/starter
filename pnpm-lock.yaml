@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.25
         version: 1.2.25
       '@iconify-json/simple-icons':
-        specifier: ^1.2.22
-        version: 1.2.22
+        specifier: ^1.2.23
+        version: 1.2.23
       '@nuxt/ui-pro':
         specifier: 3.0.0-alpha.12
         version: 3.0.0-alpha.12(@babel/parser@7.26.7)(change-case@5.4.4)(db0@0.2.3)(embla-carousel@8.5.2)(ioredis@5.4.2)(magicast@0.3.5)(radix-vue@1.9.13(vue@3.5.13(typescript@5.7.3)))(rollup@4.32.1)(typescript@5.7.3)(vite@6.0.11(@types/node@22.12.0)(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
@@ -451,8 +451,8 @@ packages:
   '@iconify-json/lucide@1.2.25':
     resolution: {integrity: sha512-OsHihLfqdjxwoLWDEnGesrYbCG6VCCoLvmb1U6UJhggsppW+D3DUY/LhhcppZM4Yw3AM4USDIn/gkzqjdRYgEw==}
 
-  '@iconify-json/simple-icons@1.2.22':
-    resolution: {integrity: sha512-0UzThRMwHuOJfgpp+tyV/y2uEBLjFVrxC4igv9iWjSEQEBK4tNjWZNTRCBCYyv/FwWVYyKAsA8tZQ8vUYzvFnw==}
+  '@iconify-json/simple-icons@1.2.23':
+    resolution: {integrity: sha512-ySyZ0ZXdNveWnR71t7XGV7jhknxSlTtpM2TyIR1cUHTUzZLP36hYHTNqb2pYYsCzH5ed85KTTKz7vYT33FyNIQ==}
 
   '@iconify/collections@1.0.511':
     resolution: {integrity: sha512-Ilp9gg6HYu9oGZUCNGCEsblATFagC7AmvsUMi4mxfPbh48ygKQ4vIfzJetE9AAu2qwqaYt/dRQjTXvt5Ex8HwQ==}
@@ -4588,7 +4588,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.22':
+  '@iconify-json/simple-icons@1.2.23':
     dependencies:
       '@iconify/types': 2.0.0
 
