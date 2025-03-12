@@ -5,7 +5,7 @@
       description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes."
       :links="[{
         label: 'Get started',
-        to: 'https://ui3.nuxt.dev/getting-started/installation/pro/nuxt',
+        to: 'https://ui.nuxt.com/getting-started/installation/pro/nuxt',
         target: '_blank',
         trailingIcon: 'i-lucide-arrow-right',
         size: 'xl'
@@ -52,7 +52,7 @@
           color: 'neutral'
         }, {
           label: 'License',
-          to: 'https://ui3.nuxt.dev/getting-started/license',
+          to: 'https://ui.nuxt.com/getting-started/license',
           target: '_blank',
           trailingIcon: 'i-lucide-circle-help',
           color: 'neutral',
