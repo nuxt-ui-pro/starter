@@ -26,5 +26,12 @@
   "resolutions": {
     "unimport": "4.1.1"
   },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "vue-demi"
+    ]
+  },
   "packageManager": "pnpm@10.9.0"
 }
