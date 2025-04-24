@@ -58,7 +58,7 @@ useSeoMeta({
 
     <UFooter>
       <template #left>
-        <p class="text-sm text-(--ui-text-muted)">
+        <p class="text-sm text-muted">
           Copyright © {{ new Date().getFullYear() }}
         </p>
       </template>
