@@ -1,13 +1,12 @@
-# Nuxt UI Pro Starter Template
+# Nuxt Starter Template
 
-This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) quickly.
+[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com/pro)
+[![Deploy to NuxtHub](https://img.shields.io/badge/Deploy%20to-NuxtHub-00DC82?logo=nuxt&labelColor=020420)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/starter)
 
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
+This Nuxt starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) quickly.
 
-- [Live demo](https://ui-pro-starter.nuxt.dev)
-- [Documentation](https://ui.nuxt.com/pro/getting-started)
-
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/starter)
+- [Live demo](https://ui-pro-starter.nuxt.dev/)
+- [Documentation](https://ui.nuxt.com/getting-started/installation/pro/nuxt)
 
 <a href="https://ui-pro-starter.nuxt.dev/" target="_blank">
   <picture>
