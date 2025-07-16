@@ -20,10 +20,10 @@
   "devDependencies": {
     "@nuxt/eslint": "^1.5.2",
     "eslint": "^9.31.0",
-    "vue-tsc": "^2.2.12"
+    "vue-tsc": "^3.0.1"
   },
   "resolutions": {
-    "vue-tsc": "^2.2.12"
+    "vue-tsc": "^3.0.1"
   },
   "packageManager": "pnpm@10.13.1"
 }
