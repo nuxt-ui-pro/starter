@@ -1,17 +1,17 @@
 <template>
   <div>
     <UPageHero
-      title="Nuxt UI Pro - Starter"
-      description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes."
+      title="Nuxt UI - Starter"
+      description="Nuxt UI is a free and open-source UI library for Nuxt applications. Create beautiful & responsive applications in minutes."
       :links="[{
         label: 'Get started',
-        to: 'https://ui.nuxt.com/getting-started/installation/pro/nuxt',
+        to: 'https://ui.nuxt.com/getting-started/installation/nuxt',
         target: '_blank',
         trailingIcon: 'i-lucide-arrow-right',
         size: 'xl'
       }, {
         label: 'Use this template',
-        to: 'https://github.com/nuxt-ui-pro/starter',
+        to: 'https://github.com/nuxt-ui/starter',
         target: '_blank',
         icon: 'i-simple-icons-github',
         size: 'xl',
@@ -23,11 +23,11 @@
     <UPageSection
       id="features"
       title="The freedom to build anything"
-      description="Nuxt UI Pro ships with an extensive set of advanced components that cover a wide range of use-cases. Carefully crafted to reduce boilerplate code without sacrificing flexibility."
+      description="Nuxt UI ships with a comprehensive set of components that cover a wide range of use-cases. Carefully crafted to reduce boilerplate code without sacrificing flexibility."
       :features="[{
         icon: 'i-lucide-wrench',
         title: 'Fully customizable',
-        description: 'Customize any component through the App Config or fine-tune specific instances with the ui prop, just like Nuxt UI.'
+        description: 'Customize any component through the App Config or fine-tune specific instances with the ui prop for maximum flexibility.'
       }, {
         icon: 'i-lucide-square-stack',
         title: 'Powerful slot system',
@@ -41,20 +41,20 @@
 
     <UPageSection>
       <UPageCTA
-        title="Start with Nuxt UI Pro today!"
-        description="Nuxt UI Pro is free in development, but you need a license to use it in production."
+        title="Start with Nuxt UI today!"
+        description="Nuxt UI is a free and open-source UI library for Nuxt applications."
         variant="subtle"
         :links="[{
-          label: 'Buy now',
-          to: 'https://ui.nuxt.com/pro/purchase',
+          label: 'Get started',
+          to: 'https://ui.nuxt.com/getting-started/installation/nuxt',
           target: '_blank',
-          icon: 'i-lucide-shopping-cart',
+          icon: 'i-lucide-arrow-right',
           color: 'neutral'
         }, {
-          label: 'License',
-          to: 'https://ui.nuxt.com/getting-started/license',
+          label: 'GitHub',
+          to: 'https://github.com/nuxt/ui',
           target: '_blank',
-          trailingIcon: 'i-lucide-circle-help',
+          trailingIcon: 'i-simple-icons-github',
           color: 'neutral',
           variant: 'subtle'
         }]"
