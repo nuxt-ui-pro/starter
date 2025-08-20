@@ -12,7 +12,7 @@ useHead({
 })
 
 const title = 'Nuxt Starter Template'
-const description = 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+const description = 'Nuxt UI is a free and open-source UI library for Nuxt applications. Create beautiful & responsive applications in minutes.'
 
 useSeoMeta({
   title,
@@ -30,7 +30,7 @@ useSeoMeta({
     <UHeader>
       <template #left>
         <NuxtLink to="/">
-          <LogoPro class="w-auto h-6 shrink-0" />
+          <UILogo class="w-auto h-6 shrink-0" />
         </NuxtLink>
 
         <TemplateMenu />
